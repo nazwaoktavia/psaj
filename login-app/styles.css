@@ -1,0 +1,146 @@
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Login Box */
+.login-box {
+    display: flex;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 800px;
+}
+
+/* Left Side: Form */
+.form-container {
+    padding: 40px;
+    width: 50%;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.highlight {
+    color: #7d5bbe;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button {
+    width: 100%;
+    background: #7d5bbe;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #6a49a0;
+}
+
+/* Google Sign-in Button */
+.google-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.google-button:hover {
+    background: #f1f1f1;
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Separator */
+.separator {
+    text-align: center;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Register Link */
+.register-text {
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+}
+
+.register-link {
+    color: #7d5bbe;
+    cursor: pointer;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+/* Right Side: Image */
+.image-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    background: #ffffff;
+}
+
+.login-image {
+    width: 100%;
+    object-fit: cover;
+}
