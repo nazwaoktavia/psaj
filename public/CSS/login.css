@@ -68,15 +68,13 @@ label {
 }
 
 .button {
-    width: 100%;
-    background: #7d5bbe;
+    background: #816DFA;
     color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .button:hover {

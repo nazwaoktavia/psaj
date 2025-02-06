@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KuVaDesign - Home</title>
-    <link rel="stylesheet" href="/styles.css">
+    <title>KuVaDesign - Transformasikan Ide Menjadi Desain</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div class="logo">KuVaDesign</div>
+        <div class="logo">KuVoDesign</div>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="/login" class="btn">Login</a></li>
+                <li><a href="/" class="active">Home </a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/service">Service</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="#">Other Page ▼</a></li>
             </ul>
         </nav>
+        <a href="/" class="login-btn">Logout</a>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Bantu Desain Anda Jadi Kenyataan</h1>
-            <p>Kami menyediakan solusi desain cepat dan profesional untuk semua kebutuhan Anda.</p>
-            <a href="#" class="cta">Pesan Sekarang</a>
+            <h1>Transformasikan Ide Anda Menjadi Desain yang Luar Biasa!</h1>
+            <p>Kami adalah mitra terbaik Anda dalam menciptakan desain profesional dan menarik untuk berbagai kebutuhan.</p>
+            <a href="#" class="cta">Mulai Sekarang</a>
         </div>
         <div class="hero-image">
             <img src="/img/image.png" alt="Creative Design">
@@ -34,35 +35,165 @@
     </section>
 
     <!-- Service Section -->
+    <!-- Services Section -->
     <section class="services">
         <h2>Browse The Range</h2>
         <p>Pilihan Joki yang banyak</p>
-        <div class="service-grid">
-            <div class="service-item">
-                <img src="https://source.unsplash.com/200x200/?webdesign" alt="Web Design">
-                <p>Web Design</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="/img/web_design.png" alt="Web Design">
+                <div class="service-content">
+                    <h3>Web Design</h3>
+                    <p>Crafting products that are both user-friendly and visually appealing.</p>
+                </div>
             </div>
-            <div class="service-item">
-                <img src="https://source.unsplash.com/200x200/?presentation" alt="Design Presentasi">
-                <p>Design Presentasi</p>
+
+            <div class="service-card">
+                <img src="/img/presentasion.png" alt="Presentation Design">
+                <div class="service-content">
+                    <h3>Presentation Design</h3>
+                    <p>Creating impactful graphics that convey your brand's message.</p>
+                </div>
             </div>
-            <div class="service-item">
-                <img src="/img/image.png" alt="App Design">
-                <p>App Design</p>
+
+            <div class="service-card">
+                <img src="/img/app_design.png" alt="App Design">
+                <div class="service-content">
+                    <h3>App Design</h3>
+                    <p>Building strong, memorable brand identities.</p>
+                </div>
             </div>
-            <div class="service-item">
-                <img src="https://source.unsplash.com/200x200/?uiux" alt="UI/UX Design">
-                <p>UI/UX Design</p>
+
+            <div class="service-card">
+                <img src="/img/ui_ux.png" alt="UI/UX Design">
+                <div class="service-content">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing custom illustrations that tell your brand's story.</p>
+                </div>
             </div>
-            <div class="service-item">
-                <img src="https://source.unsplash.com/200x200/?poster" alt="Poster">
-                <p>Poster</p>
+
+            <div class="service-card">
+                <img src="/img/poster.png" alt="Poster">
+                <div class="service-content">
+                    <h3>Poster</h3>
+                    <p>Developing responsive websites that engage and perform.</p>
+                </div>
             </div>
-            <div class="service-item">
-                <img src="https://source.unsplash.com/200x200/?banner" alt="Banner">
-                <p>Banner</p>
+
+            <div class="service-card">
+                <img src="/img/banner.png" alt="Banner">
+                <div class="service-content">
+                    <h3>Banner</h3>
+                    <p>Creating apps that drive user engagement and growth.</p>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="testimonials">
+        <h2>Testimoni</h2>
+        <p>Pelanggan kami adalah bukti nyata dari hasil kerja kreatif yang kami tawarkan.</p>
+        
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="icon">💬</div>
+                <p class="testimonial-text">“They transformed our vision into a stunning digital experience.”</p>
+                <h3>TechCraft</h3>
+                <p class="author">Zico Adiasa</p>
+            </div>
+    
+            <div class="testimonial-card">
+                <div class="icon">💬</div>
+                <p class="testimonial-text">beyond to deliver a product that exceeded our expectations.</p>
+                <h3>SkylineTech</h3>
+                <p class="author">Bagas</p>
+            </div>
+    
+            <div class="testimonial-card">
+                <div class="icon">💬</div>
+                <p class="testimonial-text">Their attention to detail and commitment to quality is unmatched. Recommended!</p>
+                <h3>TechDawn</h3>
+                <p class="author">Keyline</p>
+            </div>
+        </div>
+    
+        <div class="nav-buttons">
+            <button class="prev">&larr;</button>
+            <button class="next">&rarr;</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="/img/logo.png" alt="KuVoDesign">
+                    <span>KuVoDesign</span>
+                </div>
+                <p>Subscribe to our newsletter and never miss our latest news</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">➜</button>
+                </div>
+                <p class="terms">
+                    In creating an account, you agree to our 
+                    <a href="#">Terms of Service</a> and 
+                    <a href="#">Privacy and Cookies Policy</a>.
+                </p>
+            </div>
+    
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="#">Home V1</a></li>
+                        <li><a href="#">Home V2</a></li>
+                        <li><a href="#">Home V3</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>&nbsp;</h4>
+                    <ul>
+                        <li><a href="#">About V1</a></li>
+                        <li><a href="#">About V2</a></li>
+                        <li><a href="#">About V3</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>&nbsp;</h4>
+                    <ul>
+                        <li><a href="#">Service V1</a></li>
+                        <li><a href="#">Service V2</a></li>
+                        <li><a href="#">Service V3</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>&nbsp;</h4>
+                    <ul>
+                        <li><a href="#">Project V1</a></li>
+                        <li><a href="#">Project V2</a></li>
+                        <li><a href="#">Project V3</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>&nbsp;</h4>
+                    <ul>
+                        <li><a href="#">Contact V1</a></li>
+                        <li><a href="#">Contact V2</a></li>
+                        <li><a href="#">Contact V3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2024 Copyright. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Legal</a>
+                <a href="#">Privacy</a>
+                <a href="#">Warranty</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

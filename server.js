@@ -33,6 +33,15 @@ app.get("/home", (req, res) => {
     res.render("home");
 });
 
+app.get("/service", (req, res) => {
+    res.render("service");
+});
+
+app.get("/about", (req, res) => {
+    res.render("about");
+});
+
+
 // Jalankan server
 app.listen(PORT, () => {
     console.log(`Server berjalan di http://localhost:${PORT}`);
